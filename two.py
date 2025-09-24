@@ -41,65 +41,65 @@ def v(x, y):
     return y * (y - 1)
 
 
-# fig1 = o.plot_direction_field(
-#     f=i,
-#     xmin=-5,
-#     xmax=5,
-#     ymin=-5,
-#     ymax=5,
-#     xstep=0.3,
-#     ystep=0.3,
-#     field_type="F",
-#     streamlines=True,
-#     arrow_scale=0.2,
-#     title="I",
-# )
-# plt.show()
+fig1 = o.plot_direction_field(
+    f=i,
+    xmin=-5,
+    xmax=5,
+    ymin=-5,
+    ymax=5,
+    xstep=0.3,
+    ystep=0.3,
+    field_type="F",
+    streamlines=True,
+    arrow_scale=0.2,
+    title="I",
+)
+plt.show()
 
-# fig2 = o.plot_direction_field(
-#     f=ii,
-#     xmin=-5,
-#     xmax=5,
-#     ymin=-5,
-#     ymax=5,
-#     xstep=0.3,
-#     ystep=0.3,
-#     field_type="F",
-#     streamlines=True,
-#     arrow_scale=0.2,
-#     title="II",
-# )
-# plt.show()
+fig2 = o.plot_direction_field(
+    f=ii,
+    xmin=-5,
+    xmax=5,
+    ymin=-5,
+    ymax=5,
+    xstep=0.3,
+    ystep=0.3,
+    field_type="F",
+    streamlines=True,
+    arrow_scale=0.2,
+    title="II",
+)
+plt.show()
 
-# fig3 = o.plot_direction_field(
-#     f=iii,
-#     xmin=-5,
-#     xmax=5,
-#     ymin=-5,
-#     ymax=5,
-#     xstep=0.3,
-#     ystep=0.3,
-#     field_type="F",
-#     streamlines=True,
-#     arrow_scale=0.2,
-#     title="III",
-# )
-# plt.show()
+fig3 = o.plot_direction_field(
+    f=iii,
+    xmin=-5,
+    xmax=5,
+    ymin=-5,
+    ymax=5,
+    xstep=0.3,
+    ystep=0.3,
+    field_type="F",
+    streamlines=True,
+    arrow_scale=0.2,
+    title="III",
+)
+plt.show()
 
-# fig4 = o.plot_direction_field(
-#     f=iv,
-#     xmin=-5,
-#     xmax=5,
-#     ymin=-5,
-#     ymax=5,
-#     xstep=0.3,
-#     ystep=0.3,
-#     field_type="F",
-#     streamlines=True,
-#     arrow_scale=0.2,
-#     title="IV",
-# )
-# plt.show()
+fig4 = o.plot_direction_field(
+    f=iv,
+    xmin=-5,
+    xmax=5,
+    ymin=-5,
+    ymax=5,
+    xstep=0.3,
+    ystep=0.3,
+    field_type="F",
+    streamlines=True,
+    arrow_scale=0.2,
+    title="IV",
+)
+plt.show()
 
 fig5 = o.plot_direction_field(
     f=v,

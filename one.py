@@ -150,8 +150,7 @@ def plot_direction_field(
                 Y_stream,
                 U_stream,
                 V_stream,
-                color="red",
-                alpha=0.6,
+                color="#ff000080",
                 linewidth=1,
                 density=1.5,
             )
@@ -245,7 +244,7 @@ if __name__ == "__main__":
         ystep=0.3,
         field_type="F",
         streamlines=True,
-        arrow_scale=0.8,
+        arrow_scale=0.3,
         title="Ejemplo 1: dy/dx = -x/y",
     )
     plt.show()
@@ -264,7 +263,7 @@ if __name__ == "__main__":
         ystep=0.2,
         field_type="N",  # Campo normalizado
         streamlines=True,
-        arrow_scale=1.0,
+        arrow_scale=0.3,
         title="Ejemplo 2: F(x,y) = (-y, x)",
     )
     plt.show()
@@ -285,6 +284,7 @@ if __name__ == "__main__":
         ystep=0.25,
         field_type="F",
         streamlines=False,
+        arrow_scale=0.3,
         title="Van der Pol - Campo Original",
     )
 
@@ -299,6 +299,7 @@ if __name__ == "__main__":
         ystep=0.25,
         field_type="N",
         streamlines=True,
+        arrow_scale=0.3,
         title="Van der Pol - Campo Normalizado",
     )
 
